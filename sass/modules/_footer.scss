@@ -1,0 +1,33 @@
+.footer {
+    background-color: $grey-strong;
+    padding: 1rem 0;
+}
+
+.footer__group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+  
+.footer__social {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 0.8rem;
+}
+  
+.footer__social-link {
+    color: $green-light;
+    transition: .2s;
+}
+  
+.footer__social-link:hover {
+    color: $green-strong;
+}
+  
+.footer__copy {
+    font-size: 0.5rem;
+}
+
+

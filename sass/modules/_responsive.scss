@@ -1,0 +1,236 @@
+@media screen and (max-width: 470px) {
+  .horizontal_line span {
+    line-height: normal;
+    font-size: $small-font-size;
+    text-align: center;
+    padding: 0;
+  }
+
+  .experience_group {
+    grid-template-columns: 200px;
+    padding: 2rem;
+    padding-bottom: 4rem;
+    
+  }
+  
+  .project_content {
+    justify-content: center;
+  }
+  .projects_card {
+    width: 220px;
+  }
+  .products__img {
+    width: 220px;
+  }
+  .data_container {
+    max-width: 220px;
+  }
+  .project_filter_container h2 {
+    padding-top: 1rem;
+  }
+}
+@media screen and (min-width: 470px) {
+  
+  .personalinf_container {
+    display: grid;
+    grid-template-columns: 380px;
+    justify-content: center;
+  }
+
+  .personalinfo_description {
+    font-size: 0.7rem;
+  }
+  .project_filter_container h2 {
+    padding-top: 2rem;
+  }
+  .project_filter_container h2 {
+    font-size: 1rem;
+  }
+  .projects__item h3 {
+    font-size: .7rem;
+  }
+
+  .project_area_list {
+    font-size: 0.5rem;
+  }
+  .products__price {
+    font-size: .75rem;
+  }
+  
+  .products__name {
+    font-size: .55rem;
+  }
+  .project_content {
+    grid-template-columns: 260px;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 7rem 0 2rem;
+  }
+
+  .nav {
+    height: 5rem;
+    justify-content: space-around;
+  }
+  .project_filter_container h2 {
+    padding-top: 2rem;
+  }
+  .nav_toggle, .nav__close {
+    display: none;
+  }
+  .nav__list {
+    padding-top: 0;
+    flex-direction: row;
+    column-gap: 3rem;
+  }
+  .nav__link {
+    position: relative;
+    color: $green-strong;
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+
+  .scroll-header .nav__link {
+    color: $grey-strong;
+  }
+
+  .scroll-header .active-link {
+    color: $green-strong;
+  }
+
+  .home_container {
+    padding: 14rem 0 14rem;
+  }
+  .personalinf_container { 
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .personalinfo_description {
+    font-size: 0.8rem;
+  }
+
+  .products__price {
+    font-size: 1rem;
+  }
+  
+  .products__name {
+    font-size: .6rem;
+  }
+  
+  .products__data {
+    padding: 1rem;}
+  .project_content {
+    grid-template-columns: repeat(2,270px);
+    justify-content: center;
+  }
+  
+  .footer__group {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer__copy {
+    font-size: 0.7rem;
+    font-weight: 100;
+  }
+}  
+
+@media screen and (min-width: 1040px) {
+
+  .container {
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home_container {
+    padding: 18rem 0 18rem;
+  }
+  .project_filter_container h2 {
+    padding-top: 3rem;
+  }
+  .personalinf_container { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+  }
+  .personalinfo_name, .personalinfo_description {
+    max-width: 480px;
+  }
+  .personalinfo_description {
+    font-size: 0.9rem;
+  }
+  
+  .experience_group {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+    justify-items: center;
+    
+  }
+  .project_filter_container h2 {
+    font-size: 1.3rem;
+  }
+  .projects__item h3 {
+    font-size: 1rem;
+  }
+  .project_area_list {
+    font-size: 0.6rem;
+  }
+  .products__price {
+    font-size: 1.1rem;
+  }
+  
+  .products__name {
+    font-size: .7rem;
+  }
+
+  .projects_card {
+    width: 315px;
+  }
+  .products__img {
+    width: 3150px;
+  }
+  .data_container {
+    max-width: 315px;
+  }
+  .products__data {
+    padding: 1.5rem;}
+
+  .project_content {
+    row-gap: 2rem;
+    column-gap: 4rem;
+  }
+  .home__scroll {
+    width: 350px;
+    bottom: -6.5rem;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .home_container {
+    padding: 20rem 0 20rem;
+  }
+  .experience_group {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+    justify-items: center;
+    
+  }
+  .project_content {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    transition: 0.2s;
+  }
+
+}
+
+
