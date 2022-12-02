@@ -1,0 +1,52 @@
+.personalinf_container {
+    background-color: $white-color;
+    padding: 2rem 2.5rem;
+}
+.personalinf_container img {
+    padding-bottom: .75rem;
+}
+
+.personalinfo_description {
+    background-color: $green-strong;
+    padding: 1rem;
+    color: $grey-strong;
+    font-size: 0.68rem;
+}
+
+.experience_container {
+    background-color: $white-color;
+    padding: 0 2.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 2rem;
+    color: $grey-strong;
+    font-family: $obviusly-font;
+    font-size: 700;
+}
+.experience_item {
+    display: grid;
+    grid-template-columns: 200px;
+    row-gap: 1rem;
+    justify-items: center;}
+
+
+.experience_container img {
+    min-width: 150px;
+}
+
+.experience_group {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    row-gap: 2.5rem;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+/*.experience_brand {
+    padding-left: 10px;
+}
+.experience_brand1 {
+    padding-left: 15px;
+} */
+.expirience_text {
+    text-align: center;
+}

@@ -1,0 +1,167 @@
+.projects__filters {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 0.4rem;
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    
+}
+
+.project {
+    max-width: 100%;
+}
+
+.project_filter_container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.project_filter_container h2 {
+    font-family: 'mundial', sans-serif;
+    font-weight: 200;
+    font-size: 0.7rem;
+    
+}
+
+.bottom_line {
+    margin: auto;
+    width:100%;
+    border-bottom: 1px solid $green-strong;
+    margin-bottom: 2rem;
+}
+  
+.projects__item {
+    cursor: pointer;
+}
+  
+.projects__title {
+    color: $green-strong;
+}
+.projects__item h3 {
+    font-family: 'mundial', sans-serif;
+    font-weight: 200;
+    font-size: 0.5rem;
+}
+  
+
+.project_content {
+    grid-template-columns: 220px;
+    justify-content: center;
+}
+  
+.projects_card {
+
+    background-color: $grey-strong;
+    width: 260px;
+}
+.products__img {
+    width: 260px;
+    transition: .4s;
+}
+.data_container {
+    display: inline-flex;
+    max-width: 260px;
+}
+.projects_gif {
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.products__shape {
+    font-size: 0;
+}
+  
+.products__data {
+    background-color: $green-strong;
+    padding: 0.5rem;
+}
+  
+.products__price {
+    font-family: $obviusly-font;
+    font-weight: $font-black;
+    font-size: .7rem;
+    color: $grey-strong;
+}
+  
+.products__name {
+    font-family: $mundial-font;
+    font-weight: 300;
+    font-size: .5rem;
+    color: $grey-strong;
+}
+
+.project_area {
+    display: flex;
+    padding: 0.5rem;
+    border: 1.5px solid $green-strong;
+}
+.project_area_list {
+    display: grid;
+    align-items: center;
+    font-family: $mundial-font;
+    font-weight: 300;
+    font-size: .4rem;
+    color: $green-strong;
+}
+  
+.projects_card:hover {
+    border: 1px solid $green-strong;
+    transform:translateY(-.2rem);
+    transition: 0.3s;
+}
+  /* Active link products */
+.active-product .projects__title {
+    color: $green-strong;
+    font-weight: $font-bold;
+}
+
+.backtotop {
+    font-family: $obviusly-font;
+    font-weight: 800;
+    display: grid;
+    text-align: center;
+    padding: 3rem 0;
+    margin: 0;
+    color: $green-light;
+}
+
+.backtotop i {
+    font-size: 1.8rem;
+    color: $green-strong;
+    margin: 0;
+}
+
+.backtotop:hover a i {
+    transform: translateY(-.25rem);
+    transition: 0.2s;
+}
+
+.moreInfo_container {
+    background-color: $green-strong;
+    padding: 1.5rem;
+    text-align: center;
+    font-family: $obviusly-font;
+    font-weight: $font-regular;
+    font-size: .65rem;
+    color: $grey-strong;
+}
+
+.moreInfo_container span {
+    font-weight: 800;
+}
+
+.moreInfo_button {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    color: $white-color;
+    font-family: $obviusly-font;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    background-color: $grey-strong;
+}
+
+
+
+
