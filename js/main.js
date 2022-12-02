@@ -36,6 +36,32 @@
         if(this.scrollY >= 250) header.classList.add('scroll-header');
         else header.classList.remove('scroll-header')
     }
-    window.addEventListener('scroll', scrollHeader);
+    window.addEventListener('scroll', scrollHeader)
+
+    
 
 })()
+
+// filters Options
+
+let mixerProjects = mixitup('.project_content', {
+    selectors: {
+        target: '.projects__card'
+    },
+    animation: {
+        duration: 300
+    }
+});
+
+/* Default filter products */ 
+mixerProjects.filter('.editorial')
+
+/* Link active products */ 
+
+const linkProjects = document.querySelectorAll('.projects__item')
+
+function activeProject () {
+    linkProjects.forEach(i => i.classList.remove('active-product'))
+    this.classList.add('active-product')
+}
+linkProjects.forEach(i => i.addEventListener('click', activeProject));
