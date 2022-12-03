@@ -14,19 +14,24 @@
   }
   
   .project_content {
-    justify-content: center;
+    grid-template-columns: 310px;
   }
+
   .projects_card {
-    width: 220px;
+    width: 310px;
   }
   .products__img {
-    width: 220px;
+    width: 310px;
   }
   .data_container {
-    max-width: 220px;
+    max-width: 310px;
   }
+  .products__data {
+    padding: 0.8rem;
+  }
+  
   .project_filter_container h2 {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
   }
 }
 @media screen and (min-width: 470px) {
@@ -53,15 +58,28 @@
   .project_area_list {
     font-size: 0.5rem;
   }
-  .products__price {
+  .products_name {
     font-size: .75rem;
   }
   
-  .products__name {
+  .products_desc {
     font-size: .55rem;
   }
+  .products__data {
+    padding: 0.8rem;
+  }
   .project_content {
-    grid-template-columns: 260px;
+    grid-template-columns: 330px;
+  }
+
+  .projects_card {
+    width: 330px;
+  }
+  .products__img {
+    width: 330px;
+  }
+  .data_container {
+    max-width: 330px;
   }
   
 }
@@ -71,9 +89,12 @@
     padding: 7rem 0 2rem;
   }
 
+  .nav__logo-img {
+    width: 1.8rem;
+  }
+
   .nav {
     height: 5rem;
-    justify-content: space-around;
   }
   .project_filter_container h2 {
     padding-top: 2rem;
@@ -112,11 +133,15 @@
     font-size: 0.8rem;
   }
 
-  .products__price {
-    font-size: 1rem;
+  .products_name {
+    font-size: 0.9rem;
+  }
+
+  .soccer, .perico {
+    font-size: 0.8rem
   }
   
-  .products__name {
+  .products_desc {
     font-size: .6rem;
   }
   
@@ -184,11 +209,13 @@
   .project_area_list {
     font-size: 0.6rem;
   }
-  .products__price {
+  .products_name {
     font-size: 1.1rem;
   }
-  
-  .products__name {
+  .soccer, .perico {
+    font-size: .9rem
+  }
+  .products_desc {
     font-size: .7rem;
   }
 
@@ -202,7 +229,7 @@
     max-width: 315px;
   }
   .products__data {
-    padding: 1.5rem;}
+    padding: 1rem;}
 
   .project_content {
     row-gap: 2rem;
@@ -229,6 +256,10 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     transition: 0.2s;
+  }
+
+  .moreInfo_text {
+    font-size: 1.3rem;
   }
 
 }

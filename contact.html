@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.typekit.net/luo3bcf.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Gonzalo Martin Portfolio</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html#home" class="nav_logo">
+                <img src="images/logo_home_green.png" alt="" class="nav__logo-img">
+            </a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#projects" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <!-- Toggle button -->
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu-alt-right' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container form">
+        <section class="contactForm_info">  
+            <h2>Write your inquires bellow</h2>
+        </section>
+        <section class="contactForm">
+            <form action="includes/mail/send.php" method="POST" id="mail-form">
+
+                <div class="fullname">
+                    <label for="firstname"></label>
+                    <input ref="firstname" type="text" placeholder="Your full name here..." id="firstname" name="firstname">
+    
+                    <label for="email"></label>
+                    <input ref="email" type="email" placeholder="You email here..." id="email" name="email" >
+                </div>
+
+                <div class="textMessage">
+                    <label for="message"></label>
+                    <textarea ref="message" name="message" placeholder="You message here..." id="message" cols="30" rows="10"></textarea>
+                </div>
+                
+                <div class="wrapper">
+                    <input @click.prevent="processMail" type="submit" class="submit" value="Submit form">
+                </div>                              
+            </form>
+        </section>
+        
+        <section class="successMes">
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__group">
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/Gonzomartinarango/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook-square'></i>
+                    </a>
+                    <a href="https://www.instagram.com/gonzo_martin/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                    <a href="https://www.behance.net/gonzomartin" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-behance' ></i>
+                    </a>
+                </ul>
+    
+                <span class="footer__copy">
+                    &#169; Gonzalo Martin Arango. All rigths reserved
+                </span>
+            </div>
+        </div>
+    
+    </footer>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

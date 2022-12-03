@@ -52,9 +52,8 @@
 }
   
 .projects_card {
-
     background-color: $grey-strong;
-    width: 260px;
+    width: 100%;
 }
 .products__img {
     width: 260px;
@@ -74,20 +73,20 @@
   
 .products__data {
     background-color: $green-strong;
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
   
-.products__price {
+.products_name {
     font-family: $obviusly-font;
     font-weight: $font-black;
     font-size: .7rem;
     color: $grey-strong;
 }
   
-.products__name {
+.products_desc {
     font-family: $mundial-font;
     font-weight: 300;
-    font-size: .5rem;
+    font-size: .6rem;
     color: $grey-strong;
 }
 
@@ -104,10 +103,11 @@
     font-size: .4rem;
     color: $green-strong;
 }
-  
-.projects_card:hover {
-    border: 1px solid $green-strong;
-    transform:translateY(-.2rem);
+.projects__card {
+    justify-content: center;
+}
+.projects__card:hover {
+    transform: scale(102%);
     transition: 0.3s;
 }
   /* Active link products */
@@ -139,7 +139,7 @@
 
 .moreInfo_container {
     background-color: $green-strong;
-    padding: 1.5rem;
+    padding: 2rem;
     text-align: center;
     font-family: $obviusly-font;
     font-weight: $font-regular;
@@ -153,13 +153,20 @@
 
 .moreInfo_button {
     margin-top: 1rem;
-    padding: 0.8rem;
+    padding: 0.5rem;
     color: $white-color;
     font-family: $obviusly-font;
     text-align: center;
     font-size: 1rem;
     border-radius: 0.8rem;
     background-color: $grey-strong;
+}
+.moreInfo_button:hover { 
+    background-color: $grey-medium;
+}
+
+.moreInfo_button a {
+    color: $green-light;
 }
 
 

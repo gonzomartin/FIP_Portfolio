@@ -16,7 +16,8 @@ body {
     font-family: $mundial-font;
     font-weight: $font-light;
     font-size: $small-font-size;
-    background-color: $grey-strong;
+    background: rgb(53,52,54);
+    background: linear-gradient(253deg, rgba(53,52,54,1) 0%, rgba(40,38,38,1) 100%);
     color: $green-light;
 }
   

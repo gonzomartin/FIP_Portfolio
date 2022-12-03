@@ -12,7 +12,7 @@
 <body>
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav_logo">
+            <a href="index.html#home" class="nav_logo">
                 <img src="images/logo_home_green.png" alt="" class="nav__logo-img">
             </a>
             <div class="nav_menu" id="nav-menu">
@@ -24,7 +24,7 @@
                         <a href="#projects" class="nav__link">Portfolio</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Contact</a>
+                        <a href="contact.html" class="nav__link">Contact</a>
                     </li>
                 </ul>
                 <div class="nav__close" id="nav-close">
@@ -89,6 +89,10 @@
                     <h2>Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work. </h2>
                     <ul class="projects__filters">
                         
+                        <li class="projects__item active-product" data-filter=".showall">
+                            <h3 class="projects__title">SHOW ALL</h3>
+                        </li>
+
                         <li class="projects__item" data-filter=".brand">
                             <h3 class="projects__title">BRANDING</h3>
                         </li>
@@ -105,18 +109,19 @@
                             <h3 class="projects__title">ILLUSTRATION</h3>
                         </li>
                     </ul>
+                    
                 </div>
 
                 <div class="project_content grid">
                     
-                    <article class="projects__card brand">
+                    <article class="projects__card brand edit illus showall">
                         <div class="products__shape">
                             <img src="images/project1_thumb.jpg" alt="" class="products__img">
                         </div>
                         <div class="data_container">
                             <div class="products__data">
-                                <h2 class="products__price">BENDITO POLLO</h2>
-                                <h3 class="products__name">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
+                                <h2 class="products_name">BENDITO POLLO</h2>
+                                <h3 class="products_desc">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
                             </div>
                             <div class="project_area">
                                 <ul class="project_area_list">
@@ -128,146 +133,150 @@
                         </div>
                     </article>
 
-                    <article class="projects_card brand">
+                    <article class="projects__card brand ux showall">
                         <div class="products__shape">
                             <img src="images/project2_thumb.jpg" alt="" class="products__img">
                         </div>
                         <div class="data_container">
                             <div class="products__data">
-                                <h2 class="products__price">THERMO SECURITY</h2>
-                                <h3 class="products__name">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
+                                <h2 class="products_name thermo">THERMO SECURITY</h2>
+                                <h3 class="products_desc">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
                             </div>
                             <div class="project_area">
                                 <ul class="project_area_list">
                                     <li>BRANDING</li>
-                                    <li>UX/UI</li>
+                                    <li>UX / UI</li>
                                     <li>ANIMATION</li>
                                 </ul>
                             </div>
                         </div>
                     </article>
 
-                    <article class="projects_card edit">
+                    <article class="projects__card edit showall">
                         <div class="products__shape">
                             <img src="images/project3_thumb.jpg" alt="" class="products__img">
                         </div>
                         <div class="data_container">
                             <div class="products__data">
-                                <h2 class="products__price">CALI KITSCH</h2>
-                                <h3 class="products__name">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
+                                <h2 class="products_name">CALI KITSCH</h2>
+                                <h3 class="products_desc">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
                             </div>
                             <div class="project_area">
                                 <ul class="project_area_list">
                                     <li>EDITORIAL</li>
-                                    <li>PHOTOGRAPHY</li>
+                                    <li>PHOTOGRPAH</li>
                                 </ul>
                             </div>
                         </div>
                     </article>
 
-                    <article class="projects_card ux">
+                    <article class="projects__card brand ux showall">
                         <div class="products__shape">
                             <img src="images/project4_thumb.jpg" alt="" class="products__img">
                         </div>
                         <div class="data_container">
                             <div class="products__data">
-                                <h2 class="products__price">BLUE STEEL</h2>
-                                <h3 class="products__name">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
+                                <h2 class="products_name">BLUE STEEL</h2>
+                                <h3 class="products_desc">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
                             </div>
                             <div class="project_area">
                                 <ul class="project_area_list">
-                                    <li>EDITORIAL</li>
-                                    <li>PHOTOGRAPHY</li>
+                                    <li>BRANDING</li>
+                                    <li>UX / UI</li>
+                                    <li>ANIMATION</li>
                                 </ul>
                             </div>
                         </div>
                     </article>
 
-                    <article class="projects_card illus">
+                    <article class="projects__card illus showall">
                         <div class="products__shape">
                             <img src="images/project5_thumb.jpg" alt="" class="products__img">
                         </div>
                         <div class="data_container">
                             <div class="products__data">
-                                <h2 class="products__price">SPORTS COMERCIAL</h2>
-                                <h3 class="products__name">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
+                                <h2 class="products_name soccer">SOCCER ANIMATION</h2>
+                                <h3 class="products_desc">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
                             </div>
                             <div class="project_area">
                                 <ul class="project_area_list">
-                                    <li>EDITORIAL</li>
-                                    <li>PHOTOGRAPHY</li>
+                                    <li>ILLUSTRATION</li>
+                                    <li>ANIMATION</li>
                                 </ul>
                             </div>
                         </div>
                     </article>
 
-                    <article class="projects_card brand">
+                    <article class="projects__card brand illus showall">
                         <div class="products__shape">
                             <img src="images/project6_thumb.jpg" alt="" class="products__img">
                         </div>
                         <div class="data_container">
                             <div class="products__data">
-                                <h2 class="products__price">PERICO BREWERY</h2>
-                                <h3 class="products__name">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
+                                <h2 class="products_name perico">PERICO BREWERY</h2>
+                                <h3 class="products_desc">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
                             </div>
                             <div class="project_area">
                                 <ul class="project_area_list">
                                     <li>EDITORIAL</li>
-                                    <li>PHOTOGRAPHY</li>
+                                    <li>BRANDING</li>
+                                    <li>ILLUSTRATION</li>
                                 </ul>
                             </div>
                         </div>
                     </article>
 
-                    <article class="projects_card brand">
+                    <article class="projects__card brand edit showall">
                         <div class="products__shape">
                             <img src="images/project7_thumb.jpg" alt="" class="products__img">
                         </div>
                         <div class="data_container">
                             <div class="products__data">
-                                <h2 class="products__price">ELIN</h2>
-                                <h3 class="products__name">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
+                                <h2 class="products_name">ELIN</h2>
+                                <h3 class="products_desc">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
                             </div>
                             <div class="project_area">
                                 <ul class="project_area_list">
+                                    <li>BRANDING</li>
                                     <li>EDITORIAL</li>
-                                    <li>PHOTOGRAPHY</li>
+                                    <li>ANIMATION</li>
+                                    
                                 </ul>
                             </div>
                         </div>
                     </article>
 
-                    <article class="projects_card brand">
+                    <article class="projects__card brand showall">
                         <div class="products__shape">
                             <img src="images/project8_thumb.jpg" alt="" class="products__img">
                         </div>
                         <div class="data_container">
                             <div class="products__data">
-                                <h2 class="products__price">ONE EXTRA GUY</h2>
-                                <h3 class="products__name">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
+                                <h2 class="products_name">ONE EXTRA GUY</h2>
+                                <h3 class="products_desc">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
                             </div>
                             <div class="project_area">
                                 <ul class="project_area_list">
-                                    <li>EDITORIAL</li>
-                                    <li>PHOTOGRAPHY</li>
+                                    <li>BRANDING</li>
+                                
                                 </ul>
                             </div>
                         </div>
                     </article>
 
-                    <article class="projects_card edit">
+                    <article class="projects__card edit brand showall">
                         <div class="products__shape">
                             <img src="images/project9_thumb.jpg" alt="" class="products__img">
                         </div>
                         <div class="data_container">
                             <div class="products__data">
-                                <h2 class="products__price">NUWA</h2>
-                                <h3 class="products__name">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
+                                <h2 class="products_name">NUWA</h2>
+                                <h3 class="products_desc">Over the time I decide that stick out with only one thing was not my thing, so let's celebrate divercity and I hope you enjoy my work.</h3>
                             </div>
                             <div class="project_area">
                                 <ul class="project_area_list">
                                     <li>EDITORIAL</li>
-                                    <li>PHOTOGRAPHY</li>
+                                    <li>BRANDING</li>
                                 </ul>
                             </div>
                         </div>
@@ -290,10 +299,14 @@
             <div class="moreInfo_container">
                 <img src="images/logo_home_green.png" alt="logo" class="moreInfo_logo">
                 <h2 class="moreInfo_text">
-                    If by this point you keep scroling down that means <span><br>you like what you saw. <br>
+                    If by this point you keep scroling down that means <span>you like what you saw. <br>
                     You can send me your job inquiries, questions, jokes or memes clicking below.</span> 
                 </h2>
-                <button class="moreInfo_button">CONTACT ME</button>
+                <div class="infocontainer">
+                    <button class="moreInfo_button">
+                        <a href="contact.html">CONTACT ME</a>
+                    </button> 
+                </div>
             </div>
             
         </section>
@@ -302,13 +315,13 @@
         <div class="footer__container container">
             <div class="footer__group">
                 <ul class="footer__social">
-                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                    <a href="https://www.facebook.com/Gonzomartinarango/" target="_blank" class="footer__social-link">
                         <i class='bx bxl-facebook-square'></i>
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <a href="https://www.instagram.com/gonzo_martin/" target="_blank" class="footer__social-link">
                         <i class='bx bxl-instagram' ></i>
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <a href="https://www.behance.net/gonzomartin" target="_blank" class="footer__social-link">
                         <i class='bx bxl-behance' ></i>
                     </a>
                 </ul>
