@@ -5,10 +5,10 @@ header("Content-Type: application/json; charset=UTF-8");
 
 if ($_POST) {
     $recipient = "gonzomartinarango@gmail.com";
-    $subject = 'Email from website';
-    $visitor_name = "";
-    $visitor_email = "";
-    $message = "";
+    $subject = 'Email from site';
+    $visitor_name         = "";
+    $visitor_email        = "";
+    $message      = "";
     $fail = array();
 
     if (isset($_POST['firstname']) && !empty($_POST['firstname'])) {
