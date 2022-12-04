@@ -50,3 +50,20 @@
 .expirience_text {
     text-align: center;
 }
+
+
+.videoReel {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%; 
+    height: 0;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+.videoReel iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
